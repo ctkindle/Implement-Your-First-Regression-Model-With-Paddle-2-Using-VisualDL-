@@ -69,7 +69,6 @@ print('测试集数据：{}条'.format(len(test_data)))
 print('训练数据（前三条）：')
 print(training_data[:3])
 
-
 #--------------------------------------使用Paddle框架编写的回归模型--------------------------------------
 import paddle.fluid as fluid
 from paddle.fluid.dygraph import FC
@@ -334,15 +333,9 @@ plt.show()
 ```
 
 
-![png](./output_8_0.png)
-
-
-
-![png](../output_8_1.png)
-
-
-
-![png](../../output_8_2.png)
+![](https://ai-studio-static-online.cdn.bcebos.com/56e80a8024494ced93d40d131b6d1327c2656455283f41fa881323f25fa3f57d)
+![](https://ai-studio-static-online.cdn.bcebos.com/4cc20a2e39d747a5b54f5c7c27a83f9f8455653dcd714206a950d58fa4e50a3c)
+![](https://ai-studio-static-online.cdn.bcebos.com/6ebb8ac317a54c99834e2c507f2062f828669c32ab1d4e119d5047679f48599d)
 
 
 通过观察Loss(Paddle Model & Python Model)这个图表，我们发现python版的模型和Paddle版的模型的loss完美的重合在了一起。为了方便观察，我特意使用了不同样式的线段绘图。
