@@ -334,15 +334,15 @@ plt.show()
 ```
 
 
-![png](output_8_0.png)
+![png](./output_8_0.png)
 
 
 
-![png](output_8_1.png)
+![png](../output_8_1.png)
 
 
 
-![png](output_8_2.png)
+![png](../../output_8_2.png)
 
 
 通过观察Loss(Paddle Model & Python Model)这个图表，我们发现python版的模型和Paddle版的模型的loss完美的重合在了一起。为了方便观察，我特意使用了不同样式的线段绘图。
